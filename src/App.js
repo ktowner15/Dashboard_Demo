@@ -18,17 +18,20 @@ export default function App() {
             {/* TODO: perhaps experiment by putting link here? */}
           </EnvTile>
 
-          <Link to="/information">Click me for an example of a link!</Link>
-
-          {/* TODO: get this to render on a different page */}
-          {/* <InfoCard /> */}
+          {/* TODO: get this link to open on a separate page, that way you don't need the 'close' link. */}
+          <Link to="/information">Information</Link>
+          <text> || </text>
+          <Link to="/">Close</Link>
         </div>
       </main>
       <Switch>
+        <Route path="/" exact component={blank} />
         <Route path="/information" component={infoDock} />
       </Switch>
     </Router>
   );
 }
+
+const blank = () => <div />;
 
 const infoDock = () => <InfoCard />;
