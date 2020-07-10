@@ -12,6 +12,8 @@ export class EnvTile extends Component {
     /* This was difficult to figure out, so be wary of changing it.  See
      * https://www.w3schools.com/js/js_htmldom_navigation.asp
      * for more info on walking through the JS DOM tree.
+     * My mistake was trying to accomplish this exclusively through the HTML DOM
+     * instead of using both the HTML DOM + the JS DOM.
      */
 
     // Early attempt at printing info to console:
