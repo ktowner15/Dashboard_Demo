@@ -1,0 +1,33 @@
+.Tile {
+  text-align: center;
+  padding: 30px;
+  background-color: #35962b;
+  border-color: #000000;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+.Tile:hover {
+  cursor: default;
+}
+/* --------------------- */
+.TileTitle {
+  color: #ffffff;
+}
+
+.TileTitle:hover {
+  cursor: default;
+}
+/* --------------------- */
+.TileButton {
+  font: Courier;
+  color: #000000;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.TileButton:hover {
+  cursor: pointer;
+}

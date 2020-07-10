@@ -10,6 +10,10 @@ export class Tile extends Component {
       // console.log(this);  //Used for debugging; comment out once you figure out how to bind 'this' keyword.
     }
 
+    function openTab() {
+      window.open("https://www.google.com#");
+    }
+
     return (
       <div className="Tile">
         <div className="TileTitle">{this.props.name} Information</div>
@@ -23,6 +27,11 @@ export class Tile extends Component {
         {/* Left off at 6:38 on this video: https://www.youtube.com/watch?v=kVWpBtRjkCk */}
         <button className="TileButton" onClick={sayHello.bind(this)}>
           View
+        </button>
+
+        {/* This is just me playing with opening tabs and new pages */}
+        <button className="TileButton" onClick={openTab.bind(this)}>
+          New Tab
         </button>
 
         <div />
