@@ -1,6 +1,6 @@
 import React from "react";
 
-import EnvTile from "./Components/EnvTile/EnvTile";
+import AppTile from "./Components/AppTile/AppTile";
 import "./styles.css";
 
 export default function App() {
@@ -11,8 +11,8 @@ export default function App() {
       {/* <Link to="/">Home</Link> */}
       <div id="applications">
         <div>
-          <EnvTile appName="Click" />
-          <EnvTile appName="App2" />
+          <AppTile appName="Click" />
+          <AppTile appName="App2" />
         </div>
       </div>
     </div>
