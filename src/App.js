@@ -9,9 +9,12 @@ export default function App() {
       {/* The always-visible JSX/HTML is declared here, as well as router links. Examples below:*/}
       {/* <EnvTile id="Click Environments" /> */}
       {/* <Link to="/">Home</Link> */}
-
-      <EnvTile appName="Click" />
-      <EnvTile appName="App2" />
+      <div id="applications">
+        <div>
+          <EnvTile appName="Click" />
+          <EnvTile appName="App2" />
+        </div>
+      </div>
     </div>
   );
 }
